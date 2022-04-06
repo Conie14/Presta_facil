@@ -1,0 +1,104 @@
+/*fer git*/
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.supercontainer{
+    padding-left: 50px;
+    top: 0;
+    padding-right: 50px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Navcontainer{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.containerbar{
+    width: 100%;
+    text-align: center;
+}
+
+.barra{
+    float: none;
+    background-color: #353D4F;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+}
+
+.agregar{
+    background-color: blue;
+    text-align: center;
+    border-radius: 10px;
+    font-size:11px;
+    font-family:'Lorem ipsum dolor';
+    color:white;
+    width: 100px;
+}
+
+.container-prod-carousel{
+    top: 10px;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+.container-prod{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    text-align: center;
+    align-self: auto;
+}
+
+.box{
+    margin:20px auto;
+    border-radius: 10px;
+    box-shadow: 0px -1px 8px 1px rgba(143,143,143,1);
+    display: inline-block;
+}
+.productos{
+    margin:10px auto;
+    border-radius:5px;
+    padding:20px;
+    background: white;
+    text-align: center;
+    position: relative;
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.img{
+    margin:10px auto;
+    border-radius:5px;
+    padding:13px;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    
+}
+
+.copyright {
+    background-color: #353D4F;
+    color: white;
+    width: 100%;
+    float:right;
+    text-align: right;
+}

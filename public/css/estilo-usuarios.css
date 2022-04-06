@@ -1,0 +1,51 @@
+/*Boton de Eliminar*/
+.button-rojo{
+    background-color: #EA766F;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 1px;
+}
+/*Boton de Editar*/
+.button-verde{
+    background-color: #6EE1A8;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 1px;
+}
+/*Boton circular*/
+.button5{
+    border-radius: 50%;
+}
+/*Color blanco el titulo Usuario*/
+.usuario-white{
+    color: white;
+}
+
+/*alert-dark*/
+.alert-dark{
+    background-color: #353D4F;
+    border-radius: 10px;
+}
+
+/*Agregar Usuarios*/
+.agregar-usuario{
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    border-radius: 15px;
+    /*background: -webkit-linear-gradient(left, #a445b2, #fa4299);*/
+    background-color: blue;
+    outline: none;
+    color: blanchedalmond;
+}
+.colordark{
+    background-color: #353D4F;
+}

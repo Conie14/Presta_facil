@@ -1,0 +1,116 @@
+/*fer git*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.modal-container{
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    width: 50%;
+    height: 60%;
+    background: white;
+    text-align: left;
+    display:block;
+    justify-content: space-evenly;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+
+    /*Estos son para que aparezca y desaparezca*/
+    /* transition: transform 1s;
+    transform: translateY(0%); */
+}
+
+/*para cuando al picar la x se vaya*/
+/* .modal-close{
+    transform: translateY(-200%);
+} */
+
+.modal-img{
+    top: 100px;
+    left: 5%;
+    width: 40%;
+    height: 40%;
+    float: left;
+    position: relative;
+}
+
+.modal-img img{
+    width: 100%;
+    height: auto;
+  }
+
+.modal-textos{
+    top: 10%;
+    left: 6%;
+    width: 50%;
+    height: 50%;
+    right: 10px;
+    background: transparent;
+    text-align: justify;
+    float: left;
+    font-size:80%;
+    position: relative;
+}
+
+.boxtex{
+    width: 100%;
+    height: auto;
+}
+
+.close{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #c44c4c;
+    color: white;
+    line-height: 25px;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+}
+
+.editar{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    background: #353D4F;
+    color: white;
+    line-height: 25px;
+    cursor: pointer;
+    border-radius: 0%;
+    text-align: center;
+}
+
+.eliminar{
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    background: #353D4F;
+    color: white;
+    line-height: 25px;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    text-align: center;
+}
+

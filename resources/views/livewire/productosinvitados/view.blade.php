@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-lg-5 col-md-5 col-sm-1">
                 <div class="usuario-white">
-                    <b>Productos invitados</b>
+                    <b>Productos invitados 2</b>
                 </div>
 
             </div>
